@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estúdio Fotográfico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Estúdio Fotográfico</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Bem-vindo ao nosso Estúdio</h2>
+    <p>Especializados em capturar os melhores momentos da sua vida com profissionalismo e qualidade.</p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="gallery">
+      <div class="photo">
+        <img src="foto1.jpg" alt="Foto 1">
+      </div>
+      <div class="photo">
+        <img src="foto2.jpg" alt="Foto 2">
+      </div>
+      <div class="photo">
+        <img src="foto3.jpg" alt="Foto 3">
+      </div>
+      <!-- Mais fotos podem ser adicionadas aqui -->
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu Nome" required>
+      <input type="email" id="email" placeholder="Seu E-mail" required>
+      <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="status"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 José Carlos.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
